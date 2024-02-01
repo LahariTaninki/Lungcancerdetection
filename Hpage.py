@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 
 # Set page title
 st.set_page_config(
-    page_title="Sign Language",
+    page_title="Lung Cancer Detection",
     initial_sidebar_state="expanded",
 )
 st.write('<style>div.row-widget.stMarkdown { font-size: 24px; }</style>', unsafe_allow_html=True)
@@ -32,7 +32,7 @@ components.html(
             font-size: 2rem;
         }
     </style>
-    <p id="effect">Sign Language Recognition</p>
+    <p id="effect">Lung Cancer Detection</p>
     """,
     height=69,
 )
@@ -41,15 +41,15 @@ components.html(
 
 def page_layout():
    
-    st.write("sign language is an app developed by SVEC to bridge the communication gap between deaf and normal people")
-    st.write("Developed By SVEC")
+    st.write("Lung Cancer Detection is an app developed by SVEC to detect the lung cancer")
+    st.write("Developed By SVEC Students")
     st.markdown("## Benefits:")
-    st.write("- Efficient Emergency Communication")
+    st.write("- Increased Survival Rates and Improved Quality of Life")
     st.write("- Accessible from anywhere, anytime")
     
     st.markdown("## Use:")
-    st.write("- Communication Access for Deaf Individuals")
-    st.write("- Sign language recognition is crucial in emergency situations, enabling clear communication for deaf individuals and ensuring they receive timely information ")
+    st.write("- Improved Efficiency")
+    st.write("- Lung Cancer Detection System is utilized for the early identification and diagnosis of lung cancer.The system is designed to identify potential signs of lung cancer at an early stage when the disease is more treatable and the chances of successful intervention and recovery are higher ")
   
 # Render page layout
 page_layout()

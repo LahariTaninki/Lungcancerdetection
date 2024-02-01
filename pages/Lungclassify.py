@@ -1,5 +1,4 @@
 import streamlit as st
-import imagerec
 import pandas as pd
 import random
 import os

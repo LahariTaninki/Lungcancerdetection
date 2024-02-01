@@ -36,7 +36,7 @@ if uploaded_file!=None:
 x = st.button("Predict")
 if x:
     with st.spinner("Diagnosing...."):
-        model = load_model('Lungcancerdetection/models/LCC.h5', compile = False)
+        model = load_model('models/LCC.h5', compile = False)
         image = Image.open(uploaded_file)
         size = (224, 224)
         image = ImageOps.fit(image, size)
